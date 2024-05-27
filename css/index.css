@@ -1,3 +1,4 @@
+/* ESTILO GENERAL */
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +7,419 @@
 
 a {
     text-decoration: none;
-    color: rgb(56, 133, 184);
+    color: rgb(28, 48, 161);
 }
 
-main {
-    background-color: rgb(255, 255, 255);
-    height: 100vh;
+
+/* COMIENZO DE INICIO (PRIMERA SECCION) */
+.hero{
+    background-image: url("../img/hero-fondo.jpg");
+    width: 100%;
+    height: 90vh;
+    display: flex;
 }
+.hero .hero-info{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .hero-info div{
+    width: 60%;
+    height: 450px;
+    padding: 10px;
+    background-color: white;    
+}
+.hero .hero-info div .color{
+    color: rgb(28, 48, 161);
+    font-size: 30px;
+}
+.hero .hero-info div h1{
+    padding-top: 10px;
+    font-size: 70px;
+    color: rgb(28, 48, 161);
+}
+.hero .hero-info div p{
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.hero .hero-info div a{
+    display: flex;
+    width: 70%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgb(28, 48, 161);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    transition: .2s;
+}
+.hero .hero-info div a:hover{
+    background-color: rgb(23, 74, 168);
+}
+
+
+/*  ................................   */
+.hero .hero-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .hero-img div{
+    width: 80%;
+}
+
+
+
+/* SEGUNDA SECCION */
+.atencion{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(180deg, rgba(53, 98, 255, .2), rgba(53, 98, 255, .1), rgba(53, 98, 255, .15));
+}
+.atencion .atencion-info{
+    width: 50%;
+    height: 280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atencion .atencion-info div{
+    height: 200px;
+    width: 80%;
+    text-align: center
+}
+.atencion .atencion-info div .tamaño{
+    font-size: 40px;
+    padding-top: 30px;
+    color: black;
+}
+.atencion .atencion-info div p{
+    color: rgb(78, 79, 80);
+    font-size: 18px;
+}
+.atencion .atencion-info div a{
+    display: inline-block;
+    width: 40%;
+    height: 50px;
+    background-color: rgb(28, 48, 161);
+    margin-top: 10px;
+    padding-top: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center; 
+    font-size: 23px;
+    transition: .2s;
+}
+.atencion .atencion-info div a:hover{
+    background-color: rgb(23, 74, 168);
+}
+
+/* ......................... */
+.atencion .atencion-veneficios{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.atencion .atencion-veneficios div{
+    width: 450px;
+    height: 150px;
+    margin-left: 20px;
+    padding: 0 30px;
+    border: rgb(160, 160, 160) 1px none;
+    border-radius: 10px;
+    box-shadow: 1px 4px 3px 3px rgb(192, 195, 197);
+}
+.atencion .atencion-veneficios div i{
+    display: block;
+    padding-top: 20px;
+    font-size: 25px;
+    color: rgb(28, 48, 161);
+}
+.atencion .atencion-veneficios div h3{
+    padding-top: 10px;
+}
+
+
+
+/* TERCERA SECCION */
+.estudios{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(180deg, rgba(53, 98, 255, .06), rgba(53, 98, 255, .1), rgba(53, 98, 255, .2));
+    display: flex;
+}
+.estudios .estudios-info{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estudios .estudios-info div{
+    width: 60%;
+    height: 50%;
+}
+.estudios .estudios-info div h1{
+    color: rgb(28, 48, 161);
+    font-size: 50px;
+}
+.estudios .estudios-info div p{
+    font-size: 23px;
+    color: rgb(78, 79, 80);
+}
+.estudios .estudios-info div h2{
+    padding-top: 10px;
+    color: rgb(35, 35, 36);
+}
+.estudios .estudios-info div a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 50px;
+    background-color: rgb(28, 48, 161);
+    color: white;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.estudios .estudios-info div a:hover{
+    background-color: rgb(23, 74, 168)
+}
+
+/* .................  */
+.estudios .estudios-foto {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estudios .estudios-foto div{
+    width: 100%;
+}
+/* FIN */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* COMIENZO DEL RESPONSIVE */
+
+@media (max-width: 1501px){
+    /* ................ */
+    .hero .hero-info div{
+        padding: 0;
+    }
+    .hero .hero-info div h1{
+        font-size: 45px;
+    }
+    .hero .hero-info div p{
+        font-size: 17px;
+        padding-top: 0;
+    }
+
+    /* ..................  */
+    .atencion{
+        height: 80vh;
+    }
+    .atencion .atencion-info div .tamaño{
+         font-size: 30px;
+    }
+    .atencion .atencion-info div p{
+        font-size: 18px;
+    }
+    .atencion .atencion-info div a{
+        width: 35%;
+        height: 45px;
+        font-size: 18px;
+    }
+    .atencion .atencion-veneficios div{
+        width: 400px;
+        gap: 2rem;
+    }
+
+
+    /* ...................  */
+    .estudios .estudios-info div h1{
+        font-size: 35px;
+    }
+    .estudios .estudios-info div p{
+        font-size: 19px;
+    }
+    .estudios .estudios-info div h2{
+        font-size: 20px;
+    }
+    .estudios .estudios-info div a{
+        width: 36%;
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1460px){
+    /* ......................  */
+    .hero .hero-info div h1{
+        font-size: 40px;
+    }
+    .hero .hero-info div p{
+        font-size: 16px;
+    }
+    .hero .hero-img div img{
+        width: 500px;
+        
+    }
+    .hero .hero-info div a{
+        width: 50%;
+        height: 45px;
+        font-size: 18px;
+    }
+
+
+    /* ......................  */
+    .atencion{
+        height: 90vh;
+    }
+    .atencion .atencion-veneficios div{
+        width: 350px;
+    }
+
+
+    /* .......................   */
+    .estudios .estudios-info div h1{
+        font-size: 30px;
+    }
+    .estudios .estudios-info div p{
+        font-size: 17px;
+    }
+    .estudios .estudios-info div h2{
+        font-size: 18px;
+    }
+    .estudios .estudios-info div a{
+        width: 33%;
+        height: 43px;
+        font-size: 15px;
+    }
+    .estudios .estudios-foto div img{
+        width: 300px;   
+    }
+}
+
+@media (max-width: 1140px){
+    /* ..............................  */
+    .hero .hero-img div img{
+        width: 400px;
+    }
+    /* ...............................  */
+    .atencion{
+        height: 140vh;
+    }
+    .atencion .atencion-info div a{
+        width: 40%;
+    }
+    .atencion .atencion-veneficios{
+        flex-direction: column;
+        height: 540px;
+    }
+    .atencion .atencion-veneficios div{
+        margin-top: 30px;
+    }
+
+    /* ................................   */
+
+}
+
+@media (max-width: 870px){
+    /* .............................  */
+    .hero .hero-img{
+        display: none;
+    }
+    .hero .hero-info{
+        width: 100%;
+    }
+    .hero .hero-info div {
+        width: 50%;
+        height: 70%;
+    }
+    .hero .hero-info div .color{
+        font-size: 25px;
+    }
+    .hero .hero-info div h1{
+        font-size: 35px
+    }
+    
+    /* ...............................  */
+    .atencion .atencion-info div .tamaño{
+        font-size: 25px;
+    }
+    .atencion .atencion-info div p{
+        font-size: 16px;
+    }
+    .atencion .atencion-info div a{
+        height: 62px;
+        width: 50%;
+        font-size: 18px;
+    }
+
+    /* ............................... */
+    .estudios .estudios-foto{
+        display: none;
+    }
+    .estudios .estudios-info{
+        width: 100%;
+    }
+    .estudios .estudios-info div{
+        width: 50%;
+    }
+    .estudios .estudios-info div a{
+        width: 50%;
+    }
+}
+@media (max-width: 450px){
+    /* ...................................  */
+    .hero{
+        height: 80vh;
+    }
+    .hero .hero-info div{
+        width: 80%;
+    }
+
+
+    /* ......................................  */
+    .atencion .atencion-info{
+        width: 90%;
+    }
+    .atencion .atencion-info div a{
+        height: 60px;
+    }
+    .atencion .atencion-veneficios{
+        width: 100%;
+    }
+    .atencion .atencion-veneficios div{
+        width: 300px;
+    }
+
+    /* ...................................... */
+    .estudios .estudios-info div{
+        width: 80%;
+    }
+}
+
+/* FINN */

@@ -14,7 +14,7 @@ header{
 
 header  h1{
     font-size: 30px;
-    color: rgb(56, 133, 184);
+    color: rgb(28, 48, 161);
 }
 header i{
     display: none;
@@ -35,8 +35,8 @@ header nav a{
     transition: .5s;
 }
 header nav a:hover{
-    color: black;
-    background-color: rgba(148, 144, 144, 0.795);
+    color: white;
+    background-color: rgb(23, 74, 168);
     border-radius: 10px;
 }
 
