@@ -395,7 +395,7 @@ a {
 @media (max-width: 450px){
     /* ...................................  */
     .hero{
-        height: 80vh;
+        height: 73vh;
     }
     .hero .hero-info div{
         width: 80%;
@@ -403,11 +403,14 @@ a {
 
 
     /* ......................................  */
+    .atencion{
+        height: 130vh;
+    }
     .atencion .atencion-info{
         width: 90%;
     }
     .atencion .atencion-info div a{
-        height: 60px;
+        height: 50px;
     }
     .atencion .atencion-veneficios{
         width: 100%;
