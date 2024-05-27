@@ -411,6 +411,7 @@ a {
     }
     .atencion .atencion-info div a{
         height: 50px;
+        width: 180px;
     }
     .atencion .atencion-veneficios{
         width: 100%;
