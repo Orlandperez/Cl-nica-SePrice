@@ -11,7 +11,7 @@ header.innerHTML = `
     
     <nav>
         <a href="index.html"> Inicio </a>
-        <a href=""> Turno </a>
+        <a href="turno.html"> Turno </a>
         <a href=""> Servicios</a>
         <a href=""> Iniciar sesion</a>
         <a href=""> Ingreso medico</a>

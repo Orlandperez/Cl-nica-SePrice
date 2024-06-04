@@ -1,0 +1,71 @@
+
+.contenedor-turno{
+    width: 50%;
+
+}
+
+.titulo-turno{
+    padding-bottom: 15px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Para que la sección ocupe toda la altura de la ventana */
+}
+
+.turno-form {
+    background-color: #f9f9f9; /* Color de fondo del formulario */
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto más elegante */
+    transition: background-color 0.3s ease; /* Transición para el hover */
+}
+
+.turno-form:hover {
+    background-color: #e0f7fa; /* Color de fondo al hacer hover */
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input[type="text"],
+.form-control input[type="date"],
+.form-control input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buton-enviar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+input[type="submit"] {
+    display: block;
+    width: 25%;
+    padding: 10px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición para el hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Color de fondo del botón al hacer hover */
+}
