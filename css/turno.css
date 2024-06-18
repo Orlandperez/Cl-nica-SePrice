@@ -69,3 +69,12 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3; /* Color de fondo del botón al hacer hover */
 }
+
+
+
+@media (max-width: 600px){
+    .hero .contenedor-turno{
+        width: 80%;
+    }
+
+}

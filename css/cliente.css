@@ -16,6 +16,13 @@ main .iniciarSecion{
     height: 100%;
     margin: 0 auto;
 }
+main .iniciarSecion .house{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 3;
+}
 main .iniciarSecion .titulo{
     padding-top: 70px;
 }
@@ -59,6 +66,9 @@ main .iniciarSecion .contenido a:hover{
 
 /* INICIO DEL RESPONSIVE */
 @media (max-width: 1550px){
+    main .iniciarSecion .house{
+        display: none;
+    }
     main .iniciarSecion .titulo{
         padding: 25px;
     }
@@ -72,6 +82,9 @@ main .iniciarSecion .contenido a:hover{
     main .iniciarSecion .foto img{
         width: 255px;
     }
+    main .iniciarSecion .contenido{
+        height: 210px;
+    }
 }
 @media (max-width: 820px){
     main{
@@ -80,8 +93,5 @@ main .iniciarSecion .contenido a:hover{
     main .iniciarSecion{
         width: 80%;
         height: 108vh;
-    }
-    main .iniciarSecion .contenido{
-        bottom: 1%;
     }
 }

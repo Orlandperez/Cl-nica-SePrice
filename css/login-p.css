@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.log-in{
+    width: 100%;
+    height: 100vh;
+    background-color: #dcdcdc;
+}
+.log-in .contenido-log{
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+.log-in .contenido-log h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 55px 0;
+    color: rgb(28, 48, 161);
+}
+.log-in .contenido-log .log-form{
+    height: 380px;
+}
+
+.log-in .contenido-log .log-form form{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.log-in .contenido-log .log-form form h2{
+    padding: 10px 0;
+    color: rgb(28, 48, 161);
+}
+.log-in .contenido-log .log-form form label{
+    margin-top: 30px;
+    color: rgb(28, 48, 161);
+}
+.log-in .contenido-log .log-form form input{
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-top: 5px;
+    outline: none;
+}
+.log-in .contenido-log .log-form form button{
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    transition: .2s;
+    background-color: #dcdcdc;
+}
+.log-in .contenido-log .log-form form button:hover{
+    background-color: rgb(28, 48, 161);
+    color: white;
+}
+
+
+.log-in .contenido-log .log-links{
+    text-align: center;
+    height: 70px;
+}
+.log-in .contenido-log .log-links p{
+    font-size: 20px;
+    color: rgb(28, 48, 161);
+}
+.log-in .contenido-log .log-links a{
+    text-decoration: none;
+    color: #cfcccc;
+    font-size: 25px;
+    display: inline-block;
+    margin: 20px 0 0 10px;
+    transition: .2s;
+
+}
+.log-in .contenido-log .log-links a:hover{
+    color: rgb(28, 48, 161);
+}
+
+.log-in .contenido-log .log-data{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.log-in .contenido-log .log-data p , a{
+    font-size: 19px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+
+/* INICIO DEL RESPONSIVE */
+@media(max-width: 1100px){
+    .log-in .contenido-log{
+        width: 50%;
+    }
+    .log-in .contenido-log h1{
+        font-size: 25px;
+    }
+    .log-in .contenido-log .log-form form h2{
+        font-size: 20px;
+    }
+    .log-in .contenido-log .log-form form button{
+        font-size: 15px;
+        height: 45px;
+    }
+    .log-in .contenido-log .log-links p{
+        font-size: 16px;
+    }
+    .log-in .contenido-log .log-data p , a{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 640px){
+    .log-in .contenido-log{
+        width: 80%;
+    }
+}
