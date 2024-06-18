@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.login-p2{
+    width: 100%;
+    height: 100vh;
+    background-color: #dcdcdc;
+}
+.login-p2 div{
+    background-color: white;
+    width: 33%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center
+}
+.login-p2 div h1{
+    font-size: 40px;
+    color: rgb(28, 48, 161);
+    padding: 70px;
+}
+.login-p2 div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    height: 70px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 15px;
+    color: rgb(28, 48, 161);
+    transition: .2s;
+}
+.login-p2 div a:hover{
+    background-color: rgb(28, 48, 161);
+    color: white;
+}
+.login-p2 div a i{
+    padding: 0 10px 0 0;
+}
+.login-p2 div p{
+    font-size: 20px;
+    padding: 20px 0;
+}
