@@ -12,7 +12,7 @@ header.innerHTML = `
     <nav>
         <a href="index.html"> Inicio </a>
         <a href="turno.html"> Turno </a>
-        <a href=""> Servicios</a>
+        <a href="#servicios"> Servicios</a>
         <a href="cliente.html"> Iniciar sesion</a>
         <a href=""> Ingreso medico</a>
     </nav> 
