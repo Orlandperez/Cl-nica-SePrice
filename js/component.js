@@ -14,7 +14,7 @@ header.innerHTML = `
         <a href="turno.html"> Turno </a>
         <a href="#servicios"> Servicios</a>
         <a href="cliente.html"> Iniciar sesion</a>
-        <a href=""> Ingreso medico</a>
+        <a href="login-p.html"> Ingreso medico</a>
     </nav> 
 
     <i class="bi bi-list"></i>
