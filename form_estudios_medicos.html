@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/turno.css">
+    <link rel="stylesheet" href="./css/form_estudios_medicos.css">
 
     <title>Clínica SePrice</title>
 
@@ -23,7 +23,7 @@
         <section class="hero">
             <div class="contenedor-turno">
                 <div class="titulo-turno">
-                    <h1>TURNOS</h1>
+                    <h1>RESULTADO DE ESTUDIOS MÉDICOS</h1>
                 </div>
                 <div class="turno-form">
                     <form>
@@ -36,38 +36,22 @@
                             <input type="text" id="apellido" placeholder="Introduce tu apellido" required>
                         </div>
                         <div class="form-control">
-                            <label for="especialista">Especialista:</label>
-                            <select id="especialista" required>
-                                <option value="">Seleccione un especialista</option>
-                                <option value="cardiologo">Cardiólogo</option>
-                                <option value="dermatologo">Dermatólogo</option>
-                                <option value="neurologo">Neurólogo</option>
-                                <option value="pediatra">Pediatra</option>
-                                <option value="psiquiatra">Psiquiatra</option>
+                            <label for="tipo_estudio">Tipo de Estudio Médico:</label>
+                            <select id="tipo_estudio" required>
+                                <option value="">Seleccione un tipo de estudio</option>
+                                <option value="radiografia">Radiografía</option>
+                                <option value="ecografia">Ecografía</option>
+                                <option value="resonancia_magnetica">Resonancia Magnética</option>
+                                <option value="tomografia">Tomografía</option>
+                                <option value="electrocardiograma">Electrocardiograma</option>
                             </select>
                         </div>
                         <div class="form-control">
                             <label for="fecha">Fecha:</label>
                             <input type="date" id="fecha" required>
                         </div>
-                        <div class="form-control">
-                            <label for="horario">Horario:</label>
-                            <select id="horario" required>
-                                <option value="">Seleccione un horario</option>
-                                <option value="08:00">08:00</option>
-                                <option value="09:00">09:00</option>
-                                <option value="10:00">10:00</option>
-                                <option value="11:00">11:00</option>
-                                <option value="12:00">12:00</option>
-                                <option value="13:00">13:00</option>
-                                <option value="14:00">14:00</option>
-                                <option value="15:00">15:00</option>
-                                <option value="16:00">16:00</option>
-                                <option value="17:00">17:00</option>
-                            </select>
-                        </div>
                         <div class="buton-enviar">
-                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Consultar">
                         </div>
                     </form>                     
                 </div>

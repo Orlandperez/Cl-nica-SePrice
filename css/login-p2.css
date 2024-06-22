@@ -5,10 +5,30 @@
     text-decoration: none;
 }
 
+
+
 .login-p2{
     width: 100%;
     height: 100vh;
-    background-color: #dcdcdc;
+    background-image: url('/Cl-nica-SePrice/img/hero-fondo.jpg')
+}
+
+i{
+    color: white;
+    padding: 10px;
+}
+
+.icono{
+margin: 10px;
+border: none;
+border-radius: 5px;
+background-color: rgb(28, 48, 161);
+}
+
+.icono:hover{
+    transition: 0.2s;
+    background-color: rgb(23, 74, 168);
+
 }
 .login-p2 div{
     background-color: white;
@@ -22,7 +42,7 @@
     color: rgb(28, 48, 161);
     padding: 70px;
 }
-.login-p2 div a{
+.login-p2 div .red-social{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,11 +55,11 @@
     color: rgb(28, 48, 161);
     transition: .2s;
 }
-.login-p2 div a:hover{
+.login-p2 div .red-social:hover{
     background-color: rgb(28, 48, 161);
     color: white;
 }
-.login-p2 div a i{
+.login-p2 div .red-social i{
     padding: 0 10px 0 0;
 }
 .login-p2 div p{
