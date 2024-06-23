@@ -1,0 +1,17 @@
+body{
+    background-image: url(../img/backgroundLogin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.table{
+
+    table{
+        
+        margin:5% auto;
+        width: 800px;
+        text-align: center;
+        padding: 5%;
+        
+    };
+}
