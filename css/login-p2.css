@@ -102,12 +102,12 @@
 
 
 @media(max-width: 1100px){
-    .login-p2 div{
+    .login-p2 .contenido-login2{
         width: 60%;
     }
 }
 @media(max-width: 600px){
-    .login-p2 div{
+    .login-p2 .contenido-login2{
         width: 95%;
     }
 }

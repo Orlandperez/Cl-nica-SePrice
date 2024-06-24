@@ -12,8 +12,8 @@ header.innerHTML = `
     <nav>
         <a href="index.html"> Inicio </a>
        
-        <a href="index.html #clinica-medica">Clínica Médica</a>
-        <a href="index.html #estudios-medicos">Estudios Médicos</a>
+        <a href="../Cl-nica-SePrice/index.html#clinica-medica">Clínica Médica</a>
+        <a href="../Cl-nica-SePrice/index.html#estudios-medicos">Estudios Médicos</a>
         <a href="cliente.html"> Iniciar sesion</a>
         <a href="inicioMedico.html"> Ingreso medico</a>
     </nav> 
