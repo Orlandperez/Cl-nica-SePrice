@@ -4,18 +4,18 @@ const footer = document.querySelector("footer");
 
 
 // COSAS DEL HEADER
-
+//<a href="form_turno.html"> Turnos </a>
 header.innerHTML = `
     
     <h1> Clinica SePrice </h1>
     
     <nav>
         <a href="index.html"> Inicio </a>
-        <a href="form_turno.html"> Turnos </a>
+       
         <a href="index.html #clinica-medica">Clínica Médica</a>
         <a href="index.html #estudios-medicos">Estudios Médicos</a>
         <a href="cliente.html"> Iniciar sesion</a>
-        <a href="login-p.html"> Ingreso medico</a>
+        <a href="inicioMedico.html"> Ingreso medico</a>
     </nav> 
 
     <i class="bi bi-list"></i>
@@ -35,7 +35,7 @@ footer.innerHTML = `
 
     <div class="footer-info">
         <h1>clinica SePrice</h1>
-        <p><a href="#">ClinicaSePrice@gmai.com</a></p>
+        <p><a href="#">ClinicaSePrice@gmail.com</a></p>
         <div class="Footer-leyes">
             <u><a href="#">Politica</a></u>
             <u><a href="#">Privacidad</a></u>
